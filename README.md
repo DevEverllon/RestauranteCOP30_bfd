@@ -47,11 +47,11 @@ Projeto desenvolvido por:
 
 ## 💻 Como visualizar
 
-Você pode visualizar direto na web pelo link ao lado: <a href="https://deveverllon.github.io/DescubraBelemDoParaCop30_bfd/" target="_blanck">[Preview]</a>
+Você pode visualizar direto na web pelo link ao lado: <a href="https://deveverllon.github.io/RestauranteCOP30_bfd/" target="_blanck">[Preview]</a>
 
 1. Clone este repositório:  
    ```bash
-   git clone https://github.com/deveverllon/LojaVirtualCop30.git
+   git clone https://github.com/deveverllon/RestauranteCOP30_bfd.git
 
 ---
 
