@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+}
+
+:root {
+  /* Variáveis de Cores */
+  --backgroundColor: #f6f6f6;
+  --colorPrimary: #8d1921;
+  --colorSecondary: #fea000;
+  --colorBlack: #212121;
+  
+  /* Variáveis para tamanho do texto */
+  --h1-font-size: 2.5rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.5rem;
+  --h4-font-size: 1.2rem;
+  --h5-font-size: 1.2rem;
+  --h6-font-size: 1rem;
+  --p-font-size: 1rem;
+
+  --fontPadrao: 'Inter', sans-serif;
+  --fontDestaque: 'Gelasio', serif;
+}
+
+body{
+    font-family: var(--fontPadrao);
+    background-color: var(--backgroundColor);
+    color: var(--colorBlack);
+}
+
+header{
+    background-color: var(--colorPrimary);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+header h1{
+    font-family: var(--fontDestaque);
+    font-size: var(--h1-font-size);
+    letter-spacing: 2px;
+}
+
+header p{
+    font-size: var(--h4-font-size);
+}
+
+header .idioma-selector{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border: 1px solid #fff;
+    width: 150px;
+    padding: 4px 12px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+header .idioma-selector label {
+    font-size: var(--p-font-size);
+}
+
+header .idioma-selector select {
+    cursor: pointer;
+    padding: 0.3rem;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+}
+header .idioma-selector option {
+    background-color: #b81717;
+    color: #fff;
+    font-weight: 400;
+}
+
+/*
+
+<style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background: #f8f6f2;
+      color: #333;
+    }
+    header {
+      background: #4e2e1e;
+      color: #fff;
+      padding: 2rem 1rem 1rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin: 0 0 1rem 0;
+      font-size: 1.2rem;
+    }
+    #idioma-selector {
+      margin: 1rem 0;
+    }
+    #idiomas {
+      padding: 0.3rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    nav ol {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0 0 0;
+    }
+    nav a {
+      color: #ffd700;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2.5rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(78,46,30,0.08);
+      padding: 1.5rem;
+    }
+    section h2 {
+      color: #4e2e1e;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      border-bottom: 2px solid #ffd700;
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    td {
+      padding: 0.7rem;
+      vertical-align: middle;
+      border-bottom: 1px solid #eee;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    img {
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+    footer {
+      background: #4e2e1e;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem 1rem 1rem;
+      margin-top: 2rem;
+    }
+    footer h3 {
+      margin-top: 0;
+      font-size: 1.3rem;
+      letter-spacing: 1px;
+    }
+    footer p {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+    iframe {
+      border-radius: 10px;
+      margin-top: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    }
+    @media (max-width: 600px) {
+      main, section {
+        padding: 0.5rem;
+      }
+      table, td {
+        font-size: 0.95rem;
+      }
+      nav ol {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  </style>
+
+*/
